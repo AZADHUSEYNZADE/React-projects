@@ -1,0 +1,66 @@
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.bottomSide {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+img {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+}
+.nameAndPrice {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+}
+.name {
+  font-size: 20px;
+  margin-top: 20px;
+  padding-right: 30px;
+}
+.price {
+  margin-top: 20px;
+  width: 60px;
+  height: 25px;
+  border-radius: 8px;
+  background-color: cornflowerblue;
+  text-align: center;
+  color: white;
+}
+.info {
+  width: 600px;
+  margin: 0px;
+  text-align: center;
+  color: darkslategrey;
+  margin-bottom: 30px;
+}
+
+.toggleButton {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  color: blue;
+  margin-left: 10px;
+}
+.notInterested {
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid darkslategray;
+  font-weight: bold;
+  color: darkslategray;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  cursor: pointer;
+}

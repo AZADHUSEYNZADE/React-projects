@@ -1,0 +1,55 @@
+body {
+  background-color: bisque;
+}
+.mainListDiv {
+  width: 300px;
+  max-height: 430px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 8px;
+  overflow-y: auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: #ffffff;
+}
+h5 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  color: darkblue;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+li {
+  display: flex;
+  flex-direction: row;
+}
+img {
+  width: 50px;
+  height: 50px;
+}
+h6 {
+  font-size: 16px;
+  margin: 0px;
+  margin-left: 10px;
+}
+p {
+  margin: 0px;
+  margin-left: 10px;
+}
+
+button {
+  width: 80%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 0px;
+  background-color: darkblue;
+  color: white;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  cursor: pointer;
+}
